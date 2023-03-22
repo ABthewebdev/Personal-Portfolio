@@ -474,6 +474,7 @@ input, select, textarea {
 		.row.gtr-50 {
 			margin-top: 0;
 			margin-left: -1.25em;
+			margin-bottom: 2em;
 		}
 
 			.row.gtr-50 > * {
