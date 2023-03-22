@@ -130,10 +130,10 @@ link.addEventListener('click', function(event) {
 });
 
 		// Add a click event listener to the link
-		link1.addEventListener('click', function(event) {
+		link1.addEventListener('click', function(event1) {
 			// Prevent the default action of the link (which would be to follow the href attribute)
-			event.preventDefault();
+			event1.preventDefault();
 			
 			// Open a new tab with the href attribute of the link
-			window.open(link.href, '_blank');
+			window.open(link1.href, '_blank');
 		});
