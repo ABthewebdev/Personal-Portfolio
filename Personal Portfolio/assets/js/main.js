@@ -115,3 +115,25 @@
 			});
 
 })(jQuery);
+
+const link = document.getElementById('darn');
+const link1 = document.querySelector('#photo')
+
+		
+// Add a click event listener to the link
+link.addEventListener('click', function(event) {
+	// Prevent the default action of the link (which would be to follow the href attribute)
+	event.preventDefault();
+	
+	// Open a new tab with the href attribute of the link
+	window.open(link.href, '_blank');
+});
+
+		// Add a click event listener to the link
+		link1.addEventListener('click', function(event) {
+			// Prevent the default action of the link (which would be to follow the href attribute)
+			event.preventDefault();
+			
+			// Open a new tab with the href attribute of the link
+			window.open(link.href, '_blank');
+		});
