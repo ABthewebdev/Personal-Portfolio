@@ -121,6 +121,7 @@ var link2 = document.getElementById('photo');
 var link3 = document.querySelector('.fa-twitter')
 var link4 = document.querySelector('.fa-github')
 var link5 = document.querySelector('.fa-envelope')
+var link6 = document.querySelector('#hashnode')
 
 
 link1.addEventListener('click', function(event) {
@@ -143,4 +144,8 @@ link4.addEventListener('click', function(event) {
 link5.addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
     window.open(link5.href, '_blank'); // Open the link in a new tab
+});
+link6.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
+    window.open(link6.href, '_blank'); // Open the link in a new tab
 });
