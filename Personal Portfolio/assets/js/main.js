@@ -117,14 +117,30 @@
 })(jQuery);
 
 var link1 = document.getElementById('darn');
-  var link2 = document.getElementById('photo');
+var link2 = document.getElementById('photo');
+var link3 = document.querySelector('.fa-twitter')
+var link4 = document.querySelector('.fa-github')
+var link5 = document.querySelector('.fa-envelope')
 
-  link1.addEventListener('click', function(event) {
-    event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
+
+link1.addEventListener('click', function(event) {
+	event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
     window.open(link1.href, '_blank'); // Open the link in a new tab
-  });
+});
 
-  link2.addEventListener('click', function(event) {
+link2.addEventListener('click', function(event) {
     event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
     window.open(link2.href, '_blank'); // Open the link in a new tab
-  });
+});
+link3.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
+    window.open(link3.href, '_blank'); // Open the link in a new tab
+});
+link4.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
+    window.open(link4.href, '_blank'); // Open the link in a new tab
+});
+link5.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
+    window.open(link5.href, '_blank'); // Open the link in a new tab
+});
