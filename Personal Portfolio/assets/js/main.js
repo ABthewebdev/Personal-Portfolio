@@ -116,24 +116,15 @@
 
 })(jQuery);
 
-const link = document.getElementById('darn');
-const link1 = document.querySelector('#photo')
+var link1 = document.getElementById('darn');
+  var link2 = document.getElementById('photo');
 
-		
-// Add a click event listener to the link
-link.addEventListener('click', function(event) {
-	// Prevent the default action of the link (which would be to follow the href attribute)
-	event.preventDefault();
-	
-	// Open a new tab with the href attribute of the link
-	window.open(link.href, '_blank');
-});
+  link1.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
+    window.open(link1.href, '_blank'); // Open the link in a new tab
+  });
 
-		// Add a click event listener to the link
-		link1.addEventListener('click', function(event1) {
-			// Prevent the default action of the link (which would be to follow the href attribute)
-			event1.preventDefault();
-			
-			// Open a new tab with the href attribute of the link
-			window.open(link1.href, '_blank');
-		});
+  link2.addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default behavior of opening the link in the same tab
+    window.open(link2.href, '_blank'); // Open the link in a new tab
+  });
