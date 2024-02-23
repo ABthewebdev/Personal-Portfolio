@@ -2,7 +2,7 @@
   <h1>Personal Portfolio</h1>
   <p>This is my personal portfolio showcasing all of my past projects for clients and personal needs. It also has all of my social links and ways to contact me.</p>
   <img src='Personal Portfolio/images/fulls/Screenshot 2023-07-22 124613.png'>
-  <span><a href='https://alexbrewster.netlify.app'>Link to project</span>
+  <span><a href='https://vercel.app'>Link to project</span>
 </div>
 <div>
   <h2>How it was made:</h2>
